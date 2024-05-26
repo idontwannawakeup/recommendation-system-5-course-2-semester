@@ -24,8 +24,23 @@ conda install anaconda::transformers
 Windows pip packages:
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install torch_geometric pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.3.0+cu121.html
-pip install scikit-learn
+pip install pandas scikit-learn +
 pip install pyresparser
+pip install skillNer
+pip install ojd-daps-skills +
 
 python -m spacy download en_core_web_sm (https://spacy.io/usage)
+python -m spacy download en_core_web_lg
+
+Latest packages info (Windows):
+pip install torch torchvision torchaudio torch_geometric
+pip install pandas scikit-learn
+pip install ojd-daps-skills
+
+
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install torch_geometric pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.3.0+cu121.html
+pip install pandas scikit-learn
+pip install skillNer
 python -m spacy download en_core_web_lg
