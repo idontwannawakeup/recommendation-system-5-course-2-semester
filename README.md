@@ -3,3 +3,9 @@ pip install torch_geometric pyg_lib torch_scatter torch_sparse torch_cluster tor
 pip install pandas scikit-learn
 pip install skillNer
 python -m spacy download en_core_web_lg
+
+macos bruh
+pip install torch torchvision torchaudio
+pip install torch_geometric
+pip install pandas scikit-learn
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.5.0+cpu.html
