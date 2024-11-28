@@ -1,3 +1,4 @@
+pip install matplotlib
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install torch_geometric pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.3.0+cu121.html
 pip install pandas scikit-learn
@@ -8,4 +9,9 @@ macos bruh
 pip install torch torchvision torchaudio
 pip install torch_geometric
 pip install pandas scikit-learn
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.5.0+cpu.html
+
+windows cpu bruh
+pip install matplotlib pandas scikit-learn torch torchvision torchaudio
+pip install torch_geometric
 pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.5.0+cpu.html
